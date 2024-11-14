@@ -1,8 +1,26 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+}
+
 header {
     background-color: #816C92;
+}
+
+nav ul li {
+    padding: 15px;
 }
 
 .inline-block {
     display:inline-block;
     color: #F8F8F8;
+    font-size: 20px;
+    : right;
+}
+
+.hero-sentence {
+    padding: 150px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
 }
