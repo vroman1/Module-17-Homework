@@ -12,15 +12,98 @@ nav ul li {
 }
 
 .inline-block {
-    display:inline-block;
+    display: block;
     color: #F8F8F8;
     font-size: 20px;
-    : right;
 }
 
-.hero-sentence {
-    padding: 150px;
+#test-left {
+    float:left;
+}
+
+#test-right {
+    float:right;
+}
+
+.hero-sentence-background {
+    height: 464px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-sentence {
     color: white;
+    margin: auto;
     text-align: center;
     font-size: 25px;
+}
+
+#section-header{
+    font-size: 30px;
+    display: inline-block;
+    margin-left: 75px;
+    margin-top: 15px;
+}
+
+.line-design {
+    border-bottom: 1px solid black;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+
+.project-content-left-sided {
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.project-content-right-sided{
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.firstImageContainer{
+    float: left;
+    text-align: left;
+    width: 50%;
+}
+
+.secondImageContainer{
+    float: right;
+    text-align: right;
+    width: 50%;
+}
+
+.writing-on-right-side{
+    float: right;
+    width: 50%;
+}
+
+.writing-on-left-side{
+    width: 50%;
+    padding-left: 10px;
+}
+
+img {
+    width: 25%;
+}
+
+.footer {
+    background-color: #816C92;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.footer ul li {
+    padding: 15px;
+    color: #F8F8F8;
+    display: inline-block;
+    font-size: 20px;
 }
